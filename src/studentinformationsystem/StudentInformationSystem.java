@@ -7,10 +7,12 @@ public class StudentInformationSystem {
         double mark1 = 67;
         double mark2 = 98;
         double total = mark1 + mark2;
+        double average = total / 2; // new line
 
         System.out.println("Name: " + name);
         System.out.println("Student ID: " + studentId);
         System.out.println("Total marks: " + total);
+        System.out.println("Average marks: " + average); // new line
 
         String message;
         if (total >= 80) {
